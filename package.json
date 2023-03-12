@@ -1,6 +1,6 @@
 {
   "name": "react-canvas-typescript",
-  "version": "0.3.0",
+  "version": "0.4.2",
   "description": "A React TypeScript custom hook and canvas-wrapping component providing an interface to render 2D/3D scenes on HTML Canvas",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -9,6 +9,7 @@
   "author": "Matteo Tanca <sardusmatt@incomingconnection.net>",
   "license": "MIT",
   "files": ["/dist", "README.md", "LICENSE"],
+  "keywords": ["react", "canvas", "typescript"],
   "private": false,
   "peerDependencies": {
     "react": "18.2.0",
