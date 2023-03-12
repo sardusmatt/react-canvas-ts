@@ -1,5 +1,5 @@
 import React, {CSSProperties} from 'react';
-import {Canvas, useCanvas} from 'react-canvas-ts';
+import {Canvas, useCanvas} from 'react-canvas-typescript';
 
 const componentDraw = (ctx: CanvasRenderingContext2D, frameCount: number, elapsedTime: number) : void => {
   // first clear the canvas, then draw the new frame

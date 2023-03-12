@@ -36,13 +36,11 @@ const resizeCanvas = (canvas: HTMLCanvasElement, contextType: ContextTypeType, f
 }
 
 const useCanvas = ({contextType, draw}: Props) => {
+    const [firstDraw, setFirstDraw] = useState(true);
     // keep a typed ref to the Canvas DOM element using generics
     const canvasRef = useRef<HTMLCanvasElement | null>(null);
-
     // for simplicity, we also keep a typed ref to the context, which can either be 2D or 3D (WebGL 1.0 or 2.0)
     const canvasContextRef = useRef<CanvasRenderingContext2D | WebGL2RenderingContext | WebGLRenderingContext | RenderingContext | null>(null);
-
-    const [firstDraw, setFirstDraw] = useState(true);
 
     useEffect(() => {
         // to provide the frame update to the draw function
