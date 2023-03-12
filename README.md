@@ -1,6 +1,18 @@
 # React Canvas TS
 A React TypeScript custom hook and canvas-wrapping component providing an interface to render 2D/3D scenes on HTML Canvas.
 
+## Installation
+In your project folder, if you use _npm_ run
+```shell
+npm install react-canvas-ts
+```
+or if you use _yarn_
+```shell
+yarn add react-canvas-ts
+```
+
+In your code, you can now use either the Canvas Component, or the Canvas Hook directly (if you already have your own component including a HTML Canvas element).
+
 ## Usage (Canvas Component)
 ```js
 import React from 'react';

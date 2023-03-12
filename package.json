@@ -8,6 +8,7 @@
   "repository": "https://github.com/sardusmatt/react-canvas-ts.git",
   "author": "Matteo Tanca <sardusmatt@incomingconnection.net>",
   "license": "MIT",
+  "files": ["/dist", "README.md", "LICENSE"],
   "private": false,
   "peerDependencies": {
     "react": "^18.0.0",
