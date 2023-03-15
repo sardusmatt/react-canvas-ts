@@ -1,4 +1,4 @@
-[![NPM](https://badgen.net/npm/v/react-canvas-typescript)](https://www.npmjs.com/package/react-canvas-typescript)
+[![NPM](https://img.shields.io/npm/v/react-canvas-typescript)](https://www.npmjs.com/package/react-canvas-typescript)
 
 # React Canvas TS
 A React TypeScript custom hook and canvas-wrapping component providing an interface to render 2D/3D scenes on HTML Canvas.
