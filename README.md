@@ -70,6 +70,11 @@ Currently-supported props are:
 ## TypeScript
 The hook and component have been developed entirely in TypeScript 4.x.
 
+## How to run tests
+```shell
+yarn test
+```
+
 ## How to run the example app
 ```shell
 git clone https://github.com/sardusmatt/react-canvas-ts.git && cd react-canvas-ts/example
